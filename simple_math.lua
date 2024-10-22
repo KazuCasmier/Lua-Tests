@@ -15,16 +15,13 @@ local function the_math(z)
     if z == 1 then
         local z = x + y
         return io.write("\n", x, " + ", y, " = ", z, "\n") 
-    end
-    if z == 2 then
+    elseif z == 2 then
         local z = x - y
         return io.write("\n", x, " - ", y, " = ", z, "\n")  
-    end
-    if z == 3 then
+    elseif z == 3 then
         local z = x * y
         return io.write("\n", x, " * ", y, " = ", z, "\n")   
-    end
-    if z == 4 then
+    elseif z == 4 then
         local z = x / y
         return io.write("\n", x, " / ", y, " = ", z, "\n")
     end
